@@ -1,0 +1,45 @@
+*{ font-family: 'Poppins', sans-serif;}
+#title, #description
+{
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    margin-top: 30px;
+}
+#description
+{
+    font-size: larger; 
+    font-style: italic; 
+    margin-top: 5px!important;
+}
+
+#survey-form
+{
+    display:block;
+    border: solid 1px red;
+    width:50%;
+    height:auto;
+    margin: auto;
+    margin-top: 30px;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.692);
+}
+#survey-form *
+{
+    display: block;
+    font-size: larger;
+    color: white;
+}
+input, option, textarea
+{
+   font-size: medium!important;
+   color: rgba(22, 22, 22, 0.863)!important;
+   border-radius: 5px;
+}
+#improved *
+{
+    display: inline-block!important;
+    width: max-content;
+    border: solid 1px blue;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css" >
+  </head>
+
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+
+    <form action="" id="survey-form">
+
+      <label for="Name" id="name-label" class="label" >Name
+      <input type="text" name="Name" id="name" required placeholder="Enter Your Name"></label>
+
+      <label for="Email" id="email-label" class="label">Email
+      <input type="email" name="Email" id="email" required placeholder="Enter Your Email"></label>
+
+      <label for="Number" id="number-label" class="label">Age
+      <input type="number" name="Number" id="number" min="1" max="100" placeholder="Enter your age"></label>
+
+      <p id="role">Which option best describes your current role?</p>
+      <select id="dropdown" name="" required>
+        <option value="">Student</option>
+        <option value="">Full Time Job</option>
+        <option value="">Full Time Learner</option>
+        <option value="">Prefer not to say</option>
+        <option value="">Other</option>
+      </select>
+
+      <div id="recommend">
+        <p >Would you recommend freeCodeCamp to a friend?</p>
+        <label>
+          <input name="recommendation" value="Definitely" type="radio" checked>
+          Definitely
+        </label>
+        <label>
+          <input name="recommendation" value="May be" type="radio" checked>
+          May be
+        </label>
+        <label>
+          <input name="recommendation" value="Not sure" type="radio" checked>
+          Not sure
+        </label>
+      </div>
+
+      <div id="improved">
+        <p >What would you like to see improved? <span>(Check all that apply)</span></p>
+        <label>
+          <input name="prefer" value="front-end-projects" type="checkbox">Front-end Projects
+        </label>
+
+        <label>
+          <input name="prefer" value="back-end-projects" type="checkbox">
+            Back-end Projects
+        </label>
+
+        <label>
+          <input name="prefer" value="front-end-projects" type="checkbox">
+            Data visualisations
+        </label>
+
+        <label>
+          <input name="prefer" value="front-end-projects" type="checkbox">
+            Challenges
+        </label>
+
+        <label>
+          <input name="prefer" value="front-end-projects" type="checkbox">
+            Open source community
+        </label>
+
+        <label>
+          <input name="prefer" value="front-end-projects" type="checkbox">
+            Gitters help rooms
+        </label>
+
+        <label>
+          <input name="prefer" value="front-end-projects" type="checkbox">
+            Video
+        </label>
+
+        <label>
+          <input name="prefer" value="front-end-projects" type="checkbox">
+            City Meetups
+        </label>
+        
+        <label>
+          <input name="prefer" value="front-end-projects" type="checkbox">
+            Wiki
+        </label>
+
+        <label>
+          <input name="prefer" value="front-end-projects" type="checkbox">
+            Forum
+        </label>
+
+        <label>
+          <input name="prefer" value="front-end-projects" type="checkbox">
+            Additional courses
+        </label>
+      </div>
+
+      <p id="comment">Any comments or suggestions?</p>
+      <textarea name="" id="textarrea" cols="50" rows="10" placeholder="Enter your comment Here" ></textarea>
+
+      <button id="submit" value="Submit">Submit</button>
+    </form>
+    <script  src="js/index.js"></script>
+  </body>
+</html>
