@@ -1,4 +1,5 @@
 *{ font-family: 'Poppins', sans-serif;}
+body{background-color: rgba(47, 0, 90, 0.993);}
 #title, #description
 {
     display: block;
@@ -33,13 +34,9 @@
 }
 input, option, textarea
 {
-   font-size: medium!important;
-   color: rgba(22, 22, 22, 0.863)!important;
-   border-radius: 5px;
+    width: 100%;
+    font-size: medium!important;
+    color: rgba(22, 22, 22, 0.863)!important;
+    border-radius: 5px;
 }
-#improved *
-{
-    display: inline-block!important;
-    width: max-content;
-    border: solid 1px blue;
-}
+button{color:black!important; width: 100%;}
